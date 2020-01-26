@@ -3,6 +3,7 @@ import math
 for _ in range(int(input())):
     n = int(input())
     res = []
+    # need to check only till sqrt(n)
     while n % 2 == 0:
         res.append(2)
         n /= 2
