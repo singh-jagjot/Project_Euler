@@ -1,2 +1,2 @@
 # Project_Euler
-My solutions for Project Euler problems.
+My solutions for Hackerrank version of Project Euler problems.
