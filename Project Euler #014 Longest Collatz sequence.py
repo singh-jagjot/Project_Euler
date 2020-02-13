@@ -11,7 +11,7 @@ def get_collatz(num):
             get_collatz(num // 2) + 1 if num % 2 == 0 else get_collatz(3 * num + 1) + 1)
         cache[num] = temp1
     else:
-        # Here we don't store result is cache as num >= limit.
+        # Here we don't store result in cache as num >= limit.
         temp1 = get_collatz(num // 2) + 1 if num % 2 == 0 else get_collatz(3 * num + 1) + 1
     return temp1
 
