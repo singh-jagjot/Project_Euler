@@ -5,7 +5,7 @@ teens = ["Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen"
 rest = ["Hundred", "Thousand", "Million", "Billion", "Trillion"]
 ls = []
 
-# Constants to identify whether function call to word() is a recursive one of not.
+# Constants to identify whether function call to word() is a recursive one or not.
 MAIN = "main"
 INTERNAL = "internal"
 
